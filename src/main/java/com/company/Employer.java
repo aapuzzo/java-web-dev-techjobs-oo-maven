@@ -14,7 +14,7 @@ public class Employer {
     }
 
     public Employer(String value) {
-        this();
+        this(); //invokes constructor with no arguments for this class
         this.value = value;
     }
 
